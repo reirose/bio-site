@@ -1,15 +1,16 @@
 {
-    "name": "reirose",
-    "country_code": "RU",
+    "name": "Alex",
+    "nickname": "reirose",
+    "country": "RU",
     "about": {
         "age": 22,
         "profession": "Python dev",
-        "skills": ["Python", "FastAPI", "HTML/CSS"],
-        "hobby": ["Videogames", "Tasty food"]
+        "skills": ["Python", "FastAPI", "HTML/CSS"],  
+        "hobby": ["Videogames", "Tasty food"]  
     },
     "contacts": {
-        "email": "reirose@protonmail.com",
-        "github.com": "github.com/reirose",
+        "email": "reirose@protonmail.com",  
+        "github.com": "github.com/reirose", 
         "telegram": "t.me/reirose"
     }
 }

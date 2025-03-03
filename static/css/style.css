@@ -1,39 +1,38 @@
 body {
     background: #1a1a1a;
-    color: #e0e0e0;
+    color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Изменено с center */
     padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Располагаем элементы вертикально */
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 pre {
     background: #2d2d2d;
     padding: 2rem;
     border-radius: 8px;
-    max-width: 800px;
-    width: 90%;
+    width: 100%;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
     white-space: pre-wrap;
-    word-wrap: break-word;
     border: 1px solid #3d3d3d;
-    line-height: 1.6;
-    font-size: 14px;
-}
-
-pre code {
-    display: block;
-    overflow-x: auto;
-    padding: 1em;
-    color: #e0e0e0;
-    background: #2d2d2d;
-    border-radius: 8px;
-    font-family: 'Fira Code', 'Consolas', monospace;
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 16px;
 }
 
 /* Стили для подсветки синтаксиса (опционально) */
